@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+main{
+    background-color:#FFF0F5;
+}
+#title{
+    color:black;
+    font-family: "Helvetica" sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 75px;
+    text-align: center;
+    padding-top: 1em;
+}
+#titleDescription{
+    color:black;
+    font-family: "Helvetica" sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+
+}
+#image{
+    height:auto;
+    width:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top:0.5em;
+    max-width: 625px;   
+}
+#img-caption{
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    padding-top:0.2em;
+}
+#introduction{
+    display: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: justify;
+    font-family:cursive;
+    font-style: italic;
+    padding: 2em;
+    padding-bottom: 4em;
+}
+#tribute-info{
+    font-size: 20px;
+    font-family: cursive; 
+    width: 90%;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    grid-gap: 80px;
+    grid-template-columns: 50% auto;
+    
+}
+.item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8,.item9,.item10{
+    background-color: azure;
+    height:auto;
+}
+#conclusion{
+    display: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: justify;
+    font-family:cursive;
+    font-style: italic;
+    padding: 4em;
+    padding-bottom: 4em;
+}
